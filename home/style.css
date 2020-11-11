@@ -1,0 +1,293 @@
+body,html {
+    background-color: #171717;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#pageTitle {
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.gridBlock {
+    width: 70px;
+    height: 70px;
+    background-color: burlywood;
+    transition: height 0.5s, width 0.5s;
+}
+
+.gridBlock:hover {
+    width: 140%;
+    height: 140%;
+    position: relative;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    width: 50%;
+    height: 80%;
+    justify-items: center;
+    align-items: center;
+    margin-left: 20ch;
+    margin-top: 2%;
+    grid-gap: 3%;
+}
+
+#r1c1 {
+    background-color: #006666;
+}
+#r1c2 {
+    background-color: #006699;
+}
+#r1c3 {
+    background-color: #33cccc;
+}
+#r1c4 {
+    background-color: #00ccff;
+}
+#r1c5 {
+    background-color: #0099ff
+}
+#r1c6 {
+    background-color: #0066ff;
+}
+#r1c7 {
+    background-color: #3366ff;
+}
+#r1c8 {
+    background-color: #3333cc;
+}
+#r1c9 {
+    background-color: #333399;
+}
+
+#r2c1 {
+    background-color: #669999;
+}
+#r2c2 {
+    background-color: #009999;
+}
+#r2c3 {
+    background-color: #00ffcc;
+}
+#r2c4 {
+    background-color: #33ccff;
+}
+#r2c5 {
+    background-color: #33B3FF;
+}
+#r2c6 {
+    background-color: #3399ff;
+}
+#r2c7 {
+    background-color: #6666ff;
+}
+#r2c8 {
+    background-color: #6600ff;
+}
+#r2c9 {
+    background-color: #6600cc;
+}
+
+#r3c1 {
+    background-color: #339933;
+}
+#r3c2 {
+    background-color: #00ff99;
+}
+#r3c3 {
+    background-color: #66ffcc;
+}
+#r3c4 {
+    background-color: #66ffff;
+}
+#r3c5 {
+    background-color: #66ccff;
+}
+#r3c6 {
+    background-color: #99ccff;
+}
+#r3c7 {
+    background-color: #9999ff;
+}
+#r3c8 {
+    background-color: #9966ff;
+}
+#r3c9 {
+    background-color: #9900ff;
+}
+
+#r4c1 {
+    background-color: #00cc00;
+}
+#r4c2 {
+    background-color: #00ff00;
+}
+#r4c3 {
+    background-color: #99ffcc;
+}
+#r4c4 {
+    background-color: #ccffff;
+}
+#r4c5 {
+    background-color: #CCE6FF;
+}
+#r4c6 {
+    background-color: #ccccff;
+}
+#r4c7 {
+    background-color: #cc99ff;
+}
+#r4c8 {
+    background-color: #cc33ff;
+}
+#r4c9 {
+    background-color: #cc00ff;
+}
+
+#r5c1 {
+    background-color: #33cc33;
+}
+#r5c2 {
+    background-color: #66ff66;
+}
+#r5c3 {
+    background-color: #99ff99;
+}
+#r5c4 {
+    background-color: #ccffcc;
+}
+#r5c5 {
+    background-color: #ffffff;
+}
+#r5c6 {
+    background-color: #ffccff;
+}
+#r5c7 {
+    background-color: #ff99ff;
+}
+#r5c8 {
+    background-color: #ff66ff;
+}
+#r5c9 {
+    background-color: #ff00ff;
+}
+
+#r6c1 {
+    background-color: #009900;
+}
+#r6c2 {
+    background-color: #66ff33;
+}
+#r6c3 {
+    background-color: #ccff99;
+}
+#r6c4 {
+    background-color: #ffffcc;
+}
+#r6c5 {
+    background-color: #FFE6CC;
+}
+#r6c6 {
+    background-color: #ffcccc;
+}
+#r6c7 {
+    background-color: #ff99cc;
+}
+#r6c8 {
+    background-color: #ff33cc;
+}
+#r6c9 {
+    background-color: #cc0099;
+}
+
+#r7c1 {
+    background-color: #333300;
+}
+#r7c2 {
+    background-color: #99ff33;
+}
+#r7c3 {
+    background-color: #ccff66;
+}
+#r7c4 {
+    background-color: #ffff99;
+}
+#r7c5 {
+    background-color: #ffcc99;
+}
+#r7c6 {
+    background-color: #ff9999;
+}
+#r7c7 {
+    background-color: #ff6699;
+}
+#r7c8 {
+    background-color: #ff3399;
+}
+#r7c9 {
+    background-color: #990099;
+}
+
+#r8c1 {
+    background-color: #666633;
+}
+#r8c2 {
+    background-color: #99cc00;
+}
+#r8c3 {
+    background-color: #ccff33;
+}
+#r8c4 {
+    background-color: #ffcc66;
+}
+#r8c5 {
+    background-color: #FFB366;
+}
+#r8c6 {
+    background-color: #ff9966;
+}
+#r8c7 {
+    background-color: #ff0066;
+}
+#r8c8 {
+    background-color: #cc6699;
+}
+#r8c9 {
+    background-color: #993366;
+}
+
+#r9c1 {
+    background-color: #999966;
+}
+#r9c2 {
+    background-color: #cccc00;
+}
+#r9c3 {
+    background-color: #ffff00;
+}
+#r9c4 {
+    background-color: #ffcc00;
+}
+#r9c5 {
+    background-color: #ff9933;
+}
+#r9c6 {
+    background-color: #ff6600;
+}
+#r9c7 {
+    background-color: #ff5050;
+}
+#r9c8 {
+    background-color: #cc0066;
+}
+#r9c9 {
+    background-color: #660033;
+}
